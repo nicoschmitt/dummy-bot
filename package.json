@@ -1,0 +1,17 @@
+{
+  "name": "dummy-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Nicolas Schmitt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicoschmitt/dummy-bot/issues"
+  },
+  "homepage": "https://github.com/nicoschmitt/dummy-bot#readme",
+  "dependencies": {
+    "botbuilder": "^0.6.0",
+    "dotenv": "^2.0.0",
+    "restify": "^4.0.4"
+  }
+}
