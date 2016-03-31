@@ -11,6 +11,7 @@
   "homepage": "https://github.com/nicoschmitt/dummy-bot#readme",
   "dependencies": {
     "botbuilder": "^0.6.0",
+    "botconnector": "^0.9.6",
     "dotenv": "^2.0.0",
     "restify": "^4.0.4"
   }

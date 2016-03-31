@@ -5,10 +5,6 @@ var builder = require('botbuilder');
 
 var bot = new builder.BotConnectorBot({ appId: process.env.BOT_APP_ID, appSecret: process.env.BOT_APP_SECRET });
 
-bot.on('DeleteUserData', function (message) {
-    // ... delete users data
-});
-
 bot.on("BotAddedToConversation", function(message) {
     var user = message.participants.filter(u => !u.isBot)[0];
     console.log("Chat with " + user.name);
